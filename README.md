@@ -1,5 +1,5 @@
-Simple VIM Configuration
-========================
+Tiny VIM Configuration
+======================
 
 The goal is to keep the configuration minimal.
 
