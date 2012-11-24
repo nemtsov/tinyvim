@@ -16,7 +16,7 @@ Pre-requisites
 
   - git
   - make
-  - [Inconsolata-g](http://leonardo-m.livejournal.com/77079.html) font
+  - [Inconsolata-g](http://leonardo-m.livejournal.com/77079.html) font (for gvim/macvim)
 
 Installation
 ------------
