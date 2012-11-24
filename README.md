@@ -23,6 +23,7 @@ since the make will create alises back to this dir, I recommend putting it somew
 
     cd <DIR_YOU_WANT_TO_KEEP>
     git clone https://github.com/georgecalm/vim.git
+    cd vim
     make
 
 What's Inside
