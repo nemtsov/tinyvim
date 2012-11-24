@@ -1,12 +1,17 @@
 snippet cl
 	console.log(${1});
-
+#
 snippet for
-	for (var i = 0, len = ${1}.length; i < len; i++) {
+	for (var i = 0, len = ${1}; i < len; i++) {
 		${2}
 	}
-
+#
 snippet forE
 	${1}.forEach(function (${2}) {
 	  ${3}
 	});
+#
+snippet fun
+	function (${1}) {
+		${2}
+	}
