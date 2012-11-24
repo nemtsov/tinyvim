@@ -13,7 +13,8 @@ install:
 	mkdir -p vim/bundle
 	cd ./vim/bundle; \
 	  git clone https://github.com/scrooloose/nerdtree.git; \
-	  git clone git://github.com/msanders/snipmate.vim.git; \
+		git clone https://github.com/msanders/snipmate.vim.git; \
+		git clone https://github.com/ervandew/supertab.git; \
 	  rm snipmate.vim/snippets/javascript.snippets
 
 	@echo "[ CREATING ALIASES ]"
