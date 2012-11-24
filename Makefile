@@ -15,6 +15,6 @@ install:
 	  rm snipmate.vim/snippets/javascript.snippets
 
 	@echo "[ CREATING ALIASES ]"
-	ln -s "`pwd`/vim/" ~/.vim/
+	ln -s "`pwd`/vim" ~/.vim
 	ln -s "`pwd`/vimrc" ~/.vimrc
 	ln -s "`pwd`/gvimrc" ~/.gvimrc
