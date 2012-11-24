@@ -19,13 +19,7 @@ set expandtab                     " use spaces, not tabs
 set backspace=indent,eol,start    " backspace through everything in insert mode
 
 " LIST CHARS
-set list  " Show invisible characters
-" A tab should display as "  ", trailing whitespace as "."
-" show trailing spaces as dots
-" The character to show in the last column when wrap is
-" off and the line continues beyond the right of the screen
-" The character to show in the last column when wrap is
-" off and the line continues beyond the right of the screen
+set list  " Show invisible characters: tabs, trailing spaces & long lines
 set listchars=tab:>.,trail:.,extends:>,precedes:\<
 
 " SEARCHING
