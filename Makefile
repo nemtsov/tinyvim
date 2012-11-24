@@ -8,6 +8,8 @@ install:
 	if test -e ~/.gvimrc; then mv ~/.gvimrc $(BACKUP_DIR)/gvimrc; fi
 
 	@echo "[ RETRIEVING PLUGINS ]"
+	mkdir -p vim/_backup
+	mkdir -p vim/_temp
 	mkdir -p vim/bundle
 	cd ./vim/bundle; \
 	  git clone https://github.com/scrooloose/nerdtree.git; \
