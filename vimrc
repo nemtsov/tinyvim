@@ -19,14 +19,14 @@ set expandtab                     " use spaces, not tabs
 set backspace=indent,eol,start    " backspace through everything in insert mode
 
 " LIST CHARS
-set list                          " Show invisible characters
-set listchars=""                  " Reset the listchars
-set listchars=tab:\ \             " a tab should display as "  ", trailing whitespace as "."
-set listchars+=trail:.            " show trailing spaces as dots
-set listchars+=extends:>          " The character to show in the last column when wrap is
-                                  " off and the line continues beyond the right of the screen
-set listchars+=precedes:<         " The character to show in the last column when wrap is
-                                  " off and the line continues beyond the right of the screen
+set list  " Show invisible characters
+" A tab should display as "  ", trailing whitespace as "."
+" show trailing spaces as dots
+" The character to show in the last column when wrap is
+" off and the line continues beyond the right of the screen
+" The character to show in the last column when wrap is
+" off and the line continues beyond the right of the screen
+set listchars=tab:>.,trail:.,extends:>,precedes:\<
 
 " SEARCHING
 set hlsearch    " highlight matches
@@ -49,11 +49,16 @@ map <F1> <Esc>
 imap <F1> <Esc>
 
 " FUNCTIONAL ALIASES
+set pastetoggle=<F4>
 nnoremap <leader><space> :noh<cr>
 map <C-J> <C-W>j
 map <C-K> <C-W>k
 map <C-H> <C-W>h
 map <C-L> <C-W>l
+" To not loose changes when trying to edit a file you don't own
+cnoreabbrev <expr> w!!
+                \((getcmdtype() == ':' && getcmdline() == 'w!!')
+                \?('!sudo tee % >/dev/null'):('w!!'))
 
 " PLUGINS
 map <F2> :NERDTreeToggle<CR>
