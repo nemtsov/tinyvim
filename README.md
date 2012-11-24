@@ -43,3 +43,4 @@ Plugins
   - pathogen
   - nerdtree
   - snipmate
+  - supertab
