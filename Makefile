@@ -8,8 +8,8 @@ install:
 	if test -e ~/.gvimrc; then mv ~/.gvimrc $(BACKUP_DIR)/gvimrc; fi
 
 	@echo "[ RETRIEVING PLUGINS ]"
-	mkdir -p vim/bundles 
-	cd ./vim/bundles; \
+	mkdir -p vim/bundle
+	cd ./vim/bundle; \
 	  git clone https://github.com/scrooloose/nerdtree.git; \
 	  git clone git://github.com/msanders/snipmate.vim.git; \
 	  rm snipmate.vim/snippets/javascript.snippets
