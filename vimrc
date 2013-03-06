@@ -1,3 +1,6 @@
+" DEFAUL SHELL
+set shell=/bin/sh
+
 " PATHOGEN PLUGINS
 call pathogen#infect()
 
@@ -59,4 +62,7 @@ map <F2> :NERDTreeToggle<CR>
 let g:NERDTreeMouseMode=3
 
 " DEFINE FILE-TYPES
-au BufNewFile,BufRead *.mu,*.mustache,*.handlebars,*.hbs set filetype=mustache
+au BufNewFile,BufRead *.mu,*.mustache,*.handlebars,*.hbs,*.hjs set filetype=mustache
+
+" STYLE
+highlight clear SignColumn

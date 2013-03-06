@@ -12,10 +12,15 @@ install:
 	mkdir -p vim/_temp
 	mkdir -p vim/bundle
 	cd ./vim/bundle; \
-	  git clone https://github.com/scrooloose/nerdtree.git; \
+		git clone https://github.com/scrooloose/nerdtree.git; \
 		git clone https://github.com/msanders/snipmate.vim.git; \
 		git clone https://github.com/ervandew/supertab.git; \
-	  rm snipmate.vim/snippets/javascript.snippets
+		git clone https://github.com/pangloss/vim-javascript.git; \
+		git clone https://github.com/juvenn/mustache.vim.git; \
+		git clone https://github.com/mattn/zencoding-vim.git; \
+		git clone https://github.com/airblade/vim-gitgutter.git; \
+		if test -e snipmate.vim/snippets/javascript.snippets; \
+		then rm snipmate.vim/snippets/javascript.snippets; fi
 
 	@echo "[ CREATING ALIASES ]"
 	ln -s "`pwd`/vim" ~/.vim

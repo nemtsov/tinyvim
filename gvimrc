@@ -11,3 +11,6 @@ set selectmode=key
 
 " No min-height on windows
 set wmh=0
+
+" Map fullscreen to Command+Enter
+map <D-Enter> :set invfu<CR>
