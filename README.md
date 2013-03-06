@@ -25,7 +25,7 @@ Just run make. This will save your a back-up of your current vim config to `~/.v
 since the make will create alises back to this dir, I recommend putting it somewhere you want to keep:
 
     cd <DIR_YOU_WANT_TO_KEEP>
-    git clone https://github.com/georgecalm/vim.git
+    git clone https://github.com/nemtsov/tinyvim.git
     cd vim
     make
 
