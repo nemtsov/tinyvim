@@ -14,3 +14,6 @@ set wmh=0
 
 " Map fullscreen to Command+Enter
 map <D-Enter> :set invfu<CR>
+
+" STYLE
+highlight clear SignColumn

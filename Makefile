@@ -19,6 +19,7 @@ install:
 		git clone https://github.com/juvenn/mustache.vim.git; \
 		git clone https://github.com/mattn/zencoding-vim.git; \
 		git clone https://github.com/airblade/vim-gitgutter.git; \
+		git clone https://github.com/kien/ctrlp.vim.git; \
 		if test -e snipmate.vim/snippets/javascript.snippets; \
 		then rm snipmate.vim/snippets/javascript.snippets; fi
 
