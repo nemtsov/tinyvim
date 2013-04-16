@@ -57,6 +57,10 @@ cnoreabbrev <expr> w!!
                 \((getcmdtype() == ':' && getcmdline() == 'w!!')
                 \?('!sudo tee % >/dev/null'):('w!!'))
 
+" INDENTING BLOCKS (retains vis. selection)
+vnoremap > >gv
+vnoremap < <gv
+
 " PLUGINS
 map <F2> :NERDTreeToggle<CR>
 let g:NERDTreeMouseMode=3

@@ -16,6 +16,7 @@ install:
 		git clone https://github.com/msanders/snipmate.vim.git; \
 		git clone https://github.com/ervandew/supertab.git; \
 		git clone https://github.com/pangloss/vim-javascript.git; \
+		git clone https://github.com/jnwhiteh/vim-golang.git
 		git clone https://github.com/juvenn/mustache.vim.git; \
 		git clone https://github.com/mattn/zencoding-vim.git; \
 		git clone https://github.com/airblade/vim-gitgutter.git; \
