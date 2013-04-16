@@ -1,4 +1,4 @@
-BACKUP_DIR = ~/.vim_old_bkp
+BACKUP_DIR = ~/.vim_old_bkp_$(shell date +%s)
 
 install:
 	@echo "[ BACKING-UP CURRENT to $(BACKUP_DIR) ]"
