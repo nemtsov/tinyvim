@@ -50,4 +50,4 @@ hi Special		guifg=#e7f6da gui=none
 
 hi Directory gui=NONE guifg=#857b6f guibg=NONE
 hi Search guifg=NONE guibg=#656565 gui=NONE
-
+hi SignColumn guifg=NONE guibg=NONE gui=NONE
