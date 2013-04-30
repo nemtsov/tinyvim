@@ -26,21 +26,19 @@ since the make will create alises back to this dir, I recommend putting it somew
 
     cd <DIR_YOU_WANT_TO_KEEP>
     git clone https://github.com/nemtsov/tinyvim.git
-    cd vim
+    cd tinyvim
     make
 
 What's Inside
 -------------
 
-Configuration
+**Configuration**
 
   - sets spaces, not tabs
   - removes common annoyances
   - (gvim) colorscheme, font, gui-config
 
-Plugins
+**Plugins**
 
-  - pathogen
-  - nerdtree
-  - snipmate
-  - supertab
+Take a look at the [bundles file](https://github.com/nemtsov/tinyvim/blob/master/bundles).
+It's a list of the plugins that this distribution includes.
