@@ -15,19 +15,18 @@ Pre-requisites
 ------------
 
   - git
-  - make
   - [Inconsolata-g](http://leonardo-m.livejournal.com/77079.html) font (for gvim/macvim)
 
 Installation
 ------------
 
-Just run make. This will save your a back-up of your current vim config to `~/.vim_old_bkp`. Also,
-since the make will create alises back to this dir, I recommend putting it somewhere you want to keep:
+Just run `./setup.sh`. This will save your a back-up of your current vim config to `~/.vim_old_bkp_<timestamp>`. 
+Also, since the script will create alises back to this dir, I recommend putting it somewhere you want to keep:
 
     cd <DIR_YOU_WANT_TO_KEEP>
     git clone https://github.com/nemtsov/tinyvim.git
     cd tinyvim
-    make
+    ./setup.sh
 
 What's Inside
 -------------
