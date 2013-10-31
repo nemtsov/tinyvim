@@ -42,6 +42,7 @@ ino <Down> <NOP>
 ino <Left> <NOP>
 
 " ANTI-ANNOYANCE
+map <S-k> <NOP>
 map <F1> <Esc>
 imap <F1> <Esc>
 
@@ -70,3 +71,4 @@ au BufNewFile,BufRead *.mu,*.mustache,*.handlebars,*.hbs,*.hjs set filetype=must
 
 " STYLE
 highlight clear SignColumn
+colorscheme jellybeans
