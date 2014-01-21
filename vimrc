@@ -66,8 +66,8 @@ vnoremap < <gv
 map <F2> :NERDTreeToggle<CR>
 let g:NERDTreeMouseMode=3
 
-" DEFINE FILE-TYPES
-au BufNewFile,BufRead *.mu,*.mustache,*.handlebars,*.hbs,*.hjs set filetype=mustache
+" ADD FILE-TYPE
+au BufNewFile,BufRead *.mu set filetype=html syntax=mustache
 
 " STYLE
 highlight clear SignColumn

@@ -3,7 +3,9 @@ https://github.com/msanders/snipmate.vim.git
 https://github.com/ervandew/supertab.git
 https://github.com/pangloss/vim-javascript.git
 https://github.com/jnwhiteh/vim-golang.git
-https://github.com/juvenn/mustache.vim.git
+https://github.com/mustache/vim-mustache-handlebars.git
 https://github.com/mattn/emmet-vim.git
 https://github.com/kien/ctrlp.vim.git
 https://github.com/groenewege/vim-less
+https://github.com/jlanzarotta/bufexplorer.git
+https://github.com/airblade/vim-gitgutter.git
