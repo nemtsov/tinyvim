@@ -68,6 +68,7 @@ let g:NERDTreeMouseMode=3
 
 " ADD FILE-TYPE
 au BufNewFile,BufRead *.mu set filetype=html syntax=mustache
+au BufNewFile,BufRead *.json set filetype=javascript
 
 " STYLE
 highlight clear SignColumn
