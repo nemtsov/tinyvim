@@ -1,6 +1,6 @@
 " PRETTINESS
 set background=light
-colorscheme wombat_georgecalm
+colorscheme coderschool
 set guifont=Inconsolata-g:h14
 set guioptions-=L  "remove left-hand scroll bar
 set guioptions-=r  "remove right-hand scroll bar
