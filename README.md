@@ -39,5 +39,5 @@ What's Inside
 
 **Plugins**
 
-Take a look at the [bundles file](https://github.com/nemtsov/tinyvim/blob/master/bundles).
-It's a list of the plugins that this distribution includes.
+Take a look at the [vimrc](https://github.com/nemtsov/tinyvim/blob/master/vimrc).
+It has list of the plugins (bundles) that this distribution includes.
