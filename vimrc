@@ -1,8 +1,24 @@
 " DEFAUL SHELL
 set shell=/bin/sh
 
-" PATHOGEN PLUGINS
-call pathogen#infect()
+" VUNDLE
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" BUNDLES
+Bundle 'gmarik/vundle'
+Bundle 'scrooloose/nerdtree'
+Bundle 'msanders/snipmate.vim'
+Bundle 'ervandew/supertab'
+Bundle 'pangloss/vim-javascript'
+Bundle 'jnwhiteh/vim-golang'
+Bundle 'mustache/vim-mustache-handlebars'
+Bundle 'mattn/emmet-vim'
+Bundle 'kien/ctrlp.vim'
+Bundle 'groenewege/vim-less'
+Bundle 'jlanzarotta/bufexplorer'
+Bundle 'airblade/vim-gitgutter'
+Bundle 'scrooloose/syntastic'
 
 " GLOBAL
 let mapleader = ","
