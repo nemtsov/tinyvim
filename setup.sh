@@ -25,8 +25,8 @@ function install {
 }
 
 function post_install {
-  if test -e snipmate.vim/snippets/javascript.snippets; then
-    rm snipmate.vim/snippets/javascript.snippets
+  if test -e vim/bundle/snipmate.vim/snippets/javascript.snippets; then
+    rm vim/bundle/snipmate.vim/snippets/javascript.snippets
   fi
 }
 
