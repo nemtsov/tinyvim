@@ -34,3 +34,5 @@ backup
 prepare
 install
 post_install
+
+echo ok
