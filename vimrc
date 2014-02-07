@@ -19,6 +19,7 @@ Bundle 'groenewege/vim-less'
 Bundle 'jlanzarotta/bufexplorer'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'scrooloose/syntastic'
+Bundle 'scrooloose/nerdcommenter'
 
 " GLOBAL
 let mapleader = ","
