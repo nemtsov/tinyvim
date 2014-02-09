@@ -11,11 +11,17 @@ the configuration I really use, organize it and create a minimal distro I can us
 On my MBP, circa 2009 (w/ ssd), I went from a noticable ~1.5-second load-time with janus to a snappy ~200ms
 with this setup; which, obviously, makes me happy.
 
+Customization
+-------------
+
+The `~/.vimrc.before` and `~/.vimrc.after` files will be run before and after `.vimrc` is sourced respectively. The same will happen with the `~/.gvimrc.before` and `~/.gvimrc.after` files for `.gvimrc`. Feel free to add your customizations there.
+
+
 Pre-requisites
 ------------
 
   - git
-  - [Inconsolata-g](http://leonardo-m.livejournal.com/77079.html) font (for gvim/macvim)
+  - [Inconsolata-g](http://leonardo-m.livejournal.com/77079.html) font (for gvim/macvim) [optional]
 
 Installation
 ------------
@@ -27,12 +33,6 @@ Also, since the script will create alises back to this dir, I recommend putting 
     git clone https://github.com/nemtsov/tinyvim.git
     cd tinyvim
     ./setup.sh
-
-
-Customization
--------------
-
-The `~/.vimrc.before` and `~/.vimrc.after` files will be run before and after `.vimrc` is sourced respectively. The same will happen with the `~/.gvimrc.before` and `~/.gvimrc.after` files for `.gvimrc`. Feel free to add your customizations there.
 
 
 What's Inside
