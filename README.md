@@ -48,3 +48,9 @@ What's Inside
 
 Take a look at the [vimrc](https://github.com/nemtsov/tinyvim/blob/master/vimrc).
 It has list of the plugins (bundles) that this distribution includes.
+
+
+License
+-------
+
+[MIT](https://github.com/nemtsov/tinyvim/blob/master/LICENSE)
