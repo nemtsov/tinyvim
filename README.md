@@ -28,6 +28,13 @@ Also, since the script will create alises back to this dir, I recommend putting 
     cd tinyvim
     ./setup.sh
 
+
+Customization
+-------------
+
+The `~/.vimrc.before` and `~/.vimrc.after` files will be run before and after `.vimrc` is sourced respectively. The same will happen with the `~/.gvimrc.before` and `~/.gvimrc.after` files for `.gvimrc`. Feel free to add your customizations there.
+
+
 What's Inside
 -------------
 

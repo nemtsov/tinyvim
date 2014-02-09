@@ -1,3 +1,7 @@
+if filereadable(expand("~/.gvimrc.before"))
+  source ~/.gvimrc.before
+endif
+
 " PRETTINESS
 set background=light
 colorscheme coderschool
@@ -14,3 +18,7 @@ set wmh=0
 
 " Map fullscreen to Command+Enter
 map <D-Enter> :set invfu<CR>
+
+if filereadable(expand("~/.gvimrc.after"))
+  source ~/.gvimrc.after
+endif

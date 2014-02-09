@@ -1,3 +1,7 @@
+if filereadable(expand("~/.vimrc.before"))
+  source ~/.vimrc.before
+endif
+
 " DEFAUL SHELL
 set shell=/bin/sh
 
@@ -91,3 +95,7 @@ au BufNewFile,BufRead *.json set filetype=javascript
 " STYLE
 highlight clear SignColumn
 colorscheme jellybeans
+
+if filereadable(expand("~/.vimrc.after"))
+  source ~/.vimrc.after
+endif
