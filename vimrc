@@ -25,6 +25,7 @@ Bundle 'jlanzarotta/bufexplorer'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'scrooloose/syntastic'
 Bundle 'scrooloose/nerdcommenter'
+Bundle 'YankRing.vim'
 
 " GLOBAL
 let mapleader = ","
