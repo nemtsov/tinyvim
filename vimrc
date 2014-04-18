@@ -12,7 +12,9 @@ call vundle#rc()
 " BUNDLES
 Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree'
-Bundle 'msanders/snipmate.vim'
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle 'garbas/vim-snipmate'
 Bundle 'ervandew/supertab'
 Bundle 'pangloss/vim-javascript'
 Bundle 'nemtsov/JavaScript-Indent'
