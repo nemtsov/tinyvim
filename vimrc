@@ -2,40 +2,41 @@ if filereadable(expand("~/.vimrc.before"))
   source ~/.vimrc.before
 endif
 
+set nocompatible      " Use vim, no vi defaults
+
+" VUNDLE
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim/
+call vundle#begin()
+Plugin 'gmarik/Vundle.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'ervandew/supertab'
+Plugin 'pangloss/vim-javascript'
+Plugin 'nemtsov/JavaScript-Indent'
+Plugin 'jnwhiteh/vim-golang'
+Plugin 'mustache/vim-mustache-handlebars'
+Plugin 'mattn/emmet-vim'
+Plugin 'kien/ctrlp.vim'
+Plugin 'groenewege/vim-less'
+Plugin 'jlanzarotta/bufexplorer'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'scrooloose/syntastic'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'YankRing.vim'
+call vundle#end()
+filetype plugin indent on
+
 " DEFAUL SHELL
 set shell=/bin/sh
 
-" VUNDLE
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-" BUNDLES
-Bundle 'gmarik/vundle'
-Bundle 'scrooloose/nerdtree'
-Bundle "MarcWeber/vim-addon-mw-utils"
-Bundle "tomtom/tlib_vim"
-Bundle 'garbas/vim-snipmate'
-Bundle 'ervandew/supertab'
-Bundle 'pangloss/vim-javascript'
-Bundle 'nemtsov/JavaScript-Indent'
-Bundle 'jnwhiteh/vim-golang'
-Bundle 'mustache/vim-mustache-handlebars'
-Bundle 'mattn/emmet-vim'
-Bundle 'kien/ctrlp.vim'
-Bundle 'groenewege/vim-less'
-Bundle 'jlanzarotta/bufexplorer'
-Bundle 'airblade/vim-gitgutter'
-Bundle 'scrooloose/syntastic'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'YankRing.vim'
-
 " GLOBAL
 let mapleader = ","
-filetype plugin indent on
 
 set nofoldenable
 
-set nocompatible      " Use vim, no vi defaults
 set number            " Show line numbers
 set ruler             " Show line and column number
 set encoding=utf-8    " Set default encoding to UTF-8

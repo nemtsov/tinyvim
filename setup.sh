@@ -12,8 +12,8 @@ function prepare {
   mkdir -p vim/_backup
   mkdir -p vim/_temp
   mkdir -p vim/bundle
-  if test ! -e vim/bundle/vundle; then
-    git clone https://github.com/gmarik/vundle.git vim/bundle/vundle
+  if test ! -e vim/bundle/Vundle.vim; then
+    git clone https://github.com/gmarik/Vundle.vim.git vim/bundle/Vundle.vim
   fi
 }
 
