@@ -19,6 +19,9 @@ set wmh=0
 " Map fullscreen to Command+Enter
 map <D-Enter> :set invfu<CR>
 
+" Disable visual bell
+set vb
+
 if filereadable(expand("~/.gvimrc.after"))
   source ~/.gvimrc.after
 endif

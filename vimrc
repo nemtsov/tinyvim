@@ -10,9 +10,9 @@ set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
-Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
 Plugin 'ervandew/supertab'
 Plugin 'pangloss/vim-javascript'
 Plugin 'nemtsov/JavaScript-Indent'
@@ -105,9 +105,18 @@ vnoremap < <gv
 map <F2> :NERDTreeToggle<CR>
 let g:NERDTreeMouseMode=3
 
+" let g:UltiSnipsExpandTrigger="<tab>"
+" let g:UltiSnipsJumpForwardTrigger="<c-b>"
+" let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+let g:ctrlp_map='<c-f>'
+
 " ADD FILE-TYPE
 au BufNewFile,BufRead *.mu set filetype=html syntax=mustache
-au BufNewFile,BufRead *.json set filetype=javascript
+"au BufNewFile,BufRead *.json set filetype=javascript
+
+autocmd BufRead,BufNewFile *.md setlocal spell
+autocmd FileType gitcommit setlocal spell
 
 " STYLE
 highlight clear SignColumn
